@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <!-- Brand Color Definitions -->
+    <linearGradient id="logoBlueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#2A92E8" />
+      <stop offset="100%" stopColor="#1B74C9" />
+    </linearGradient>
+    <linearGradient id="logoGreenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#6BC441" />
+      <stop offset="100%" stopColor="#4E9E2C" />
+    </linearGradient>
+    <linearGradient id="logoGoldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#DE9E52" />
+      <stop offset="100%" stopColor="#BA7F3B" />
+    </linearGradient>
+    <linearGradient id="logoSilverGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#E2E8F0" />
+      <stop offset="100%" stopColor="#CBD5E1" />
+    </linearGradient>
+  </defs>
+
+  <!-- TOP-LEFT GREEN GEAR COG -->
+  <g fill="#5DB038">
+    <path d="M 120,70 L 140,88 A 170,170 0 0,0 95,145 L 68,140 L 58,175 L 88,185 A 170,170 0 0,0 80,240 L 52,250 L 55,275 H 125 A 150,150 0 0,1 125,220 L 145,215 A 150,150 0 0,1 155,180 L 138,162 A 150,150 0 0,1 170,125 L 180,140 A 150,150 0 0,1 210,120 L 205,95 L 165,75 L 145,95 Z" />
+  </g>
+
+  <!-- BOTTOM GREEN GEAR COG -->
+  <g fill="#5DB038">
+    <path d="M 90,340 L 125,310 A 175,175 0 0,0 155,355 L 145,390 L 175,410 L 195,378 A 175,175 0 0,0 240,390 L 245,430 L 285,430 L 290,390 A 175,175 0 0,0 335,378 L 355,410 L 385,390 L 375,355 A 175,175 0 0,0 405,310 L 440,340 L 460,305 L 425,285 A 150,150 0 0,1 390,340 L 360,320 A 150,150 0 0,1 320,350 L 315,315 A 150,150 0 0,1 265,350 L 260,315 A 150,150 0 0,1 215,350 L 175,320 A 150,150 0 0,1 140,285 L 105,305 Z" />
+  </g>
+
+  <!-- BACKGROUND WIREFRAME GLOBE (SILVER/GREY) -->
+  <g stroke="#C9CED6" stroke-width="14" fill="none" opacity="0.95">
+    <circle cx="260" cy="210" r="145" />
+    <ellipse cx="260" cy="210" rx="90" ry="145" />
+    <line x1="115" y1="210" x2="405" y2="210" />
+    <line x1="135" y1="140" x2="385" y2="140" />
+    <line x1="135" y1="280" x2="385" y2="280" />
+  </g>
+
+  <!-- GREEN PINNACLE / SPIRE TOWER -->
+  <polygon points="250,5 335,65 250,240" fill="#5DB038" />
+
+  <!-- BLUE HIGH-RISE TOWER & ARCHITECTURAL GRID -->
+  <g fill="#1F7FD8">
+    <polygon points="275,115 345,72 345,260 275,260" />
+    <!-- White Louver Stripes -->
+    <rect x="285" y="125" width="50" height="7" fill="#FFFFFF" rx="2" />
+    <rect x="285" y="142" width="50" height="7" fill="#FFFFFF" rx="2" />
+    <rect x="285" y="159" width="50" height="7" fill="#FFFFFF" rx="2" />
+    <rect x="285" y="176" width="50" height="7" fill="#FFFFFF" rx="2" />
+    <rect x="285" y="193" width="50" height="7" fill="#FFFFFF" rx="2" />
+    <rect x="285" y="210" width="50" height="7" fill="#FFFFFF" rx="2" />
+    <rect x="285" y="227" width="50" height="7" fill="#FFFFFF" rx="2" />
+    <rect x="285" y="244" width="50" height="7" fill="#FFFFFF" rx="2" />
+
+    <!-- Left Blue Structural Truss Columns -->
+    <path d="M 192,185 L 245,140 V 250 H 192 Z" fill="none" stroke="#1F7FD8" stroke-width="4" />
+    <line x1="200" y1="180" x2="200" y2="250" stroke="#1F7FD8" stroke-width="4" />
+    <line x1="214" y1="168" x2="214" y2="250" stroke="#1F7FD8" stroke-width="4" />
+    <line x1="228" y1="156" x2="228" y2="250" stroke="#1F7FD8" stroke-width="4" />
+    <line x1="242" y1="144" x2="242" y2="250" stroke="#1F7FD8" stroke-width="4" />
+  </g>
+
+  <!-- GOLD/BRONZE RESIDENTIAL GABLES & ROOFS -->
+  <g fill="none" stroke="#C89354" stroke-width="8" stroke-linejoin="round" stroke-linecap="round">
+    <!-- Big Gable -->
+    <polyline points="235,270 290,215 350,270" stroke-width="12" />
+    <!-- Small Gable -->
+    <polyline points="180,268 222,228 255,268" stroke-width="10" />
+    <!-- Architectural Window Squares -->
+    <rect x="278" y="258" width="12" height="12" fill="#C89354" stroke="none" />
+    <rect x="296" y="258" width="12" height="12" fill="#C89354" stroke="none" />
+  </g>
+
+  <!-- TYPOGRAPHY: THE PREMIER -->
+  <text x="250" y="335" 
+        font-family="Outfit, Arial, Helvetica, sans-serif" 
+        font-size="62" 
+        font-weight="900" 
+        fill="#1F7FD8" 
+        text-anchor="middle" 
+        letter-spacing="2">THE PREMIER</text>
+
+  <!-- TYPOGRAPHY: Services & Solutions (Pvt. Ltd.) -->
+  <text x="250" y="380" 
+        font-family="'Plus Jakarta Sans', Arial, Helvetica, sans-serif" 
+        font-size="27" 
+        font-weight="800" 
+        fill="#5DB038" 
+        text-anchor="middle" 
+        letter-spacing="1">Services &amp; Solutions (Pvt. Ltd.)</text>
+</svg>
